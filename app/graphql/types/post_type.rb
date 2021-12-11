@@ -1,4 +1,8 @@
+# frozen_string_literal: true
+
 module Types
+  ##
+  # Defines Post data type for GraphQL queries
   class PostType < Types::BaseObject
     field :id, ID, null: false
     field :user_id, Integer, null: false
